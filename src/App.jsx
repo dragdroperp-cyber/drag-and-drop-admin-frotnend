@@ -15,7 +15,7 @@ const PrivateRoute = ({ children }) => {
 
 function App() {
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <Routes>
         <Route path="/login" element={<Login />} />
 
